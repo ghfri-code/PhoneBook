@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/remove" android:title="Remove" android:orderInCategory="20"></item>
+    <item android:id="@+id/addnote" android:orderInCategory="30" android:title="Add note"></item>
+    <item android:id="@+id/edit" android:orderInCategory="10" android:title="Edit"></item>
+    <item android:id="@+id/allnote" android:orderInCategory="40" android:title="All notes"></item>
+    
+
+</menu>

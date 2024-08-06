@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    	
+ 
+     
+    <PreferenceCategory android:title="Select Order">
+        
+        <ListPreference
+            android:key="orders"
+            android:title="Pick Your Favorite Order"
+            android:summary="Select one of choices"
+            android:entries="@array/order_itemes"
+            android:entryValues="@array/order_values"
+             />
+        
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>
